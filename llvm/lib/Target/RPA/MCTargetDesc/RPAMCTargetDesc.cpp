@@ -1,0 +1,5 @@
+#include "../RPA.h"
+#include "llvm/Support/raw_ostream.h"
+
+// We need to define this function for linking succeed
+extern "C" LLVM_EXTERNAL_VISIBILITY void LLVMInitializeRPATargetMC() { RPA_DUMP_MAGENTA }

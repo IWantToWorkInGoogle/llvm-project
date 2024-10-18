@@ -1,0 +1,9 @@
+#ifndef LLVM_LIB_TARGET_RPA_TARGETINFO_RPATARGETINFO_H
+#define LLVM_LIB_TARGET_RPA_TARGETINFO_RPATARGETINFO_H
+
+namespace llvm {
+class Target;
+Target &getTheRPATarget();
+} // end namespace llvm
+
+#endif // LLVM_LIB_TARGET_RPA_TARGETINFO_RPATARGETINFO_H
